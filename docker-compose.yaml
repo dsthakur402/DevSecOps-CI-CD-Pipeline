@@ -1,0 +1,42 @@
+version: '3'
+services:
+  frontend:
+    build: 
+      context: ./frontend
+      dockerfile: Dockerfile
+    image: frontend:v2
+    container_name: frontend
+    stdin_open: true
+    ports:
+      - "3000:3000"
+    networks:
+      - todo-app
+
+  backend:
+    build: 
+      context: ./backend
+      dockerfile: Dockerfile
+    image: backend:v2 
+    container_name: backend
+    ports:
+      - '5000:5000' 
+    networks:
+      - todo-app
+    depends_on:
+      - mongodb
+
+  mongodb:
+    image: mongo 
+    ports:
+      - '27017:27017' 
+    networks:
+      - todo-app
+    volumes:
+      - mongodb_data:/data/db 
+
+
+volumes:
+  mongodb_data: 
+
+networks:
+  todo-app:

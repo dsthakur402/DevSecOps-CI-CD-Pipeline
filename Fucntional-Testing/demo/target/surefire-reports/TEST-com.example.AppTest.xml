@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.example.AppTest" time="7.033" tests="1" errors="0" skipped="0" failures="1">
+  <properties>
+    <property name="java.specification.version" value="21"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\To-Do\Test-ToDo-main\Fucntional-Testing\demo\target\test-classes;C:\To-Do\Test-ToDo-main\Fucntional-Testing\demo\target\classes;C:\Users\YUVRAJKUMARARORA\.m2\repository\junit\junit\3.8.1\junit-3.8.1.jar;C:\Users\YUVRAJKUMARARORA\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\2.47.1\selenium-chrome-driver-2.47.1.jar;C:\Users\YUVRAJKUMARARORA\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\2.47.1\selenium-remote-driver-2.47.1.jar;C:\Users\YUVRAJKUMARARORA\.m2\repository\cglib\cglib-nodep\2.1_3\cglib-nodep-2.1_3.jar;C:\Users\YUVRAJKUMARARORA\.m2\repository\com\google\code\gson\gson\2.3.1\gson-2.3.1.jar;C:\Users\YUVRAJKUMARARORA\.m2\repository\org\seleniumhq\selenium\selenium-api\2.47.1\selenium-api-2.47.1.jar;C:\Users\YUVRAJKUMARARORA\.m2\repository\org\apache\httpcomponents\httpclient\4.4.1\httpclient-4.4.1.jar;C:\Users\YUVRAJKUMARARORA\.m2\repository\org\apache\httpcomponents\httpcore\4.4.1\httpcore-4.4.1.jar;C:\Users\YUVRAJKUMARARORA\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\YUVRAJKUMARARORA\.m2\repository\commons-codec\commons-codec\1.9\commons-codec-1.9.jar;C:\Users\YUVRAJKUMARARORA\.m2\repository\com\google\guava\guava\18.0\guava-18.0.jar;C:\Users\YUVRAJKUMARARORA\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\YUVRAJKUMARARORA\.m2\repository\net\java\dev\jna\jna\4.1.0\jna-4.1.0.jar;C:\Users\YUVRAJKUMARARORA\.m2\repository\net\java\dev\jna\jna-platform\4.1.0\jna-platform-4.1.0.jar;C:\Users\YUVRAJKUMARARORA\.m2\repository\com\relevantcodes\extentreports\2.05\extentreports-2.05.jar;C:\Users\YUVRAJKUMARARORA\.m2\repository\org\testng\testng\7.9.0\testng-7.9.0.jar;C:\Users\YUVRAJKUMARARORA\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\YUVRAJKUMARARORA\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\YUVRAJKUMARARORA\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="21"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-21\bin"/>
+    <property name="sun.java.command" value="C:\Users\YUVRAJKUMARARORA\AppData\Local\Temp\surefire17597788106949441950\surefirebooter-20240206145319501_3.jar C:\Users\YUVRAJKUMARARORA\AppData\Local\Temp\surefire17597788106949441950 2024-02-06T14-53-19_316-jvmRun1 surefire-20240206145319501_1tmp surefire_0-20240206145319501_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\To-Do\Test-ToDo-main\Fucntional-Testing\demo\target\test-classes;C:\To-Do\Test-ToDo-main\Fucntional-Testing\demo\target\classes;C:\Users\YUVRAJKUMARARORA\.m2\repository\junit\junit\3.8.1\junit-3.8.1.jar;C:\Users\YUVRAJKUMARARORA\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\2.47.1\selenium-chrome-driver-2.47.1.jar;C:\Users\YUVRAJKUMARARORA\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\2.47.1\selenium-remote-driver-2.47.1.jar;C:\Users\YUVRAJKUMARARORA\.m2\repository\cglib\cglib-nodep\2.1_3\cglib-nodep-2.1_3.jar;C:\Users\YUVRAJKUMARARORA\.m2\repository\com\google\code\gson\gson\2.3.1\gson-2.3.1.jar;C:\Users\YUVRAJKUMARARORA\.m2\repository\org\seleniumhq\selenium\selenium-api\2.47.1\selenium-api-2.47.1.jar;C:\Users\YUVRAJKUMARARORA\.m2\repository\org\apache\httpcomponents\httpclient\4.4.1\httpclient-4.4.1.jar;C:\Users\YUVRAJKUMARARORA\.m2\repository\org\apache\httpcomponents\httpcore\4.4.1\httpcore-4.4.1.jar;C:\Users\YUVRAJKUMARARORA\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\YUVRAJKUMARARORA\.m2\repository\commons-codec\commons-codec\1.9\commons-codec-1.9.jar;C:\Users\YUVRAJKUMARARORA\.m2\repository\com\google\guava\guava\18.0\guava-18.0.jar;C:\Users\YUVRAJKUMARARORA\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\YUVRAJKUMARARORA\.m2\repository\net\java\dev\jna\jna\4.1.0\jna-4.1.0.jar;C:\Users\YUVRAJKUMARARORA\.m2\repository\net\java\dev\jna\jna-platform\4.1.0\jna-platform-4.1.0.jar;C:\Users\YUVRAJKUMARARORA\.m2\repository\com\relevantcodes\extentreports\2.05\extentreports-2.05.jar;C:\Users\YUVRAJKUMARARORA\.m2\repository\org\testng\testng\7.9.0\testng-7.9.0.jar;C:\Users\YUVRAJKUMARARORA\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\YUVRAJKUMARARORA\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\YUVRAJKUMARARORA\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\YUVRAJKUMARARORA"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2023-10-17"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-21"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\To-Do\Test-ToDo-main\Fucntional-Testing\demo"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\YUVRAJKUMARARORA\AppData\Local\Temp\surefire17597788106949441950\surefirebooter-20240206145319501_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="21.0.1+12-LTS-29"/>
+    <property name="user.name" value="YUVRAJKUMARARORA"/>
+    <property name="stdout.encoding" value="Cp1252"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\YUVRAJKUMARARORA\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\YUVRAJ~1\AppData\Local\Temp\"/>
+    <property name="java.version" value="21.0.1"/>
+    <property name="user.dir" value="C:\To-Do\Test-ToDo-main\Fucntional-Testing\demo"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-21\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Docker\Docker\resources\bin;C:\Program Files\nodejs\;C:\Program Files\Git\bin;C:\Program Files\PuTTY\;C:\Program Files\Java\jdk-21;C:\Users\YUVRAJKUMARARORA\Downloads\chromedriver-win64\chromedriver-win64;C:\Users\YUVRAJKUMARARORA\AppData\Local\Programs\Python\Launcher\;C:\Users\YUVRAJKUMARARORA\AppData\Local\Microsoft\WindowsApps;C:\Users\YUVRAJKUMARARORA\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\YUVRAJKUMARARORA\AppData\Roaming\npm;C:\Program Files\apache-maven-3.9.6\bin;;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="Cp1252"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="21.0.1+12-LTS-29"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="65.0"/>
+  </properties>
+  <testcase name="extentReportsDemo" classname="com.example.AppTest" time="4.801">
+    <failure message="unknown error: net::ERR_CONNECTION_REFUSED&#10;  (Session info: chrome=121.0.6167.140)&#10;  (Driver info: chromedriver=121.0.6167.85 (3f98d690ad7e59242ef110144c757b2ac4eef1a2-refs/branch-heads/6167@{#1539}),platform=Windows NT 10.0.22621 x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 4.79 seconds&#10;Build info: version: &apos;2.47.1&apos;, revision: &apos;unknown&apos;, time: &apos;2015-07-30 11:02:44&apos;&#10;System info: host: &apos;CEQ-ICT-LAPTOP-278&apos;, ip: &apos;172.31.0.140&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.1&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:58801}, webauthn:extension:credBlob=true, acceptInsecureCerts=false, fedcm:accounts=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, webauthn:extension:largeBlob=true, unexpectedAlertBehaviour=ignore, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=121.0.6167.85 (3f98d690ad7e59242ef110144c757b2ac4eef1a2-refs/branch-heads/6167@{#1539}), userDataDir=C:\Users\YUVRAJ~1\AppData\Local\Temp\scoped_dir22908_329975985}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=121.0.6167.140, browserConnectionEnabled=false, proxy={}, nativeEvents=true, webauthn:extension:minPinLength=true, webauthn:extension:prf=true, locationContextEnabled=true, cssSelectorsEnabled=true, webauthn:virtualAuthenticators=true}]&#10;Session ID: 1256e48a0272145a60c9f9c570049412" type="org.openqa.selenium.WebDriverException"><![CDATA[org.openqa.selenium.WebDriverException: 
+unknown error: net::ERR_CONNECTION_REFUSED
+  (Session info: chrome=121.0.6167.140)
+  (Driver info: chromedriver=121.0.6167.85 (3f98d690ad7e59242ef110144c757b2ac4eef1a2-refs/branch-heads/6167@{#1539}),platform=Windows NT 10.0.22621 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 4.79 seconds
+Build info: version: '2.47.1', revision: 'unknown', time: '2015-07-30 11:02:44'
+System info: host: 'CEQ-ICT-LAPTOP-278', ip: '172.31.0.140', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:58801}, webauthn:extension:credBlob=true, acceptInsecureCerts=false, fedcm:accounts=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, webauthn:extension:largeBlob=true, unexpectedAlertBehaviour=ignore, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=121.0.6167.85 (3f98d690ad7e59242ef110144c757b2ac4eef1a2-refs/branch-heads/6167@{#1539}), userDataDir=C:\Users\YUVRAJ~1\AppData\Local\Temp\scoped_dir22908_329975985}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=121.0.6167.140, browserConnectionEnabled=false, proxy={}, nativeEvents=true, webauthn:extension:minPinLength=true, webauthn:extension:prf=true, locationContextEnabled=true, cssSelectorsEnabled=true, webauthn:virtualAuthenticators=true}]
+Session ID: 1256e48a0272145a60c9f9c570049412
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:595)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:306)
+	at com.example.AppTest.extentReportsDemo(AppTest.java:29)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:819)
+	at org.testng.TestRunner.run(TestRunner.java:619)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+	at org.testng.TestNG.runSuites(TestNG.java:1134)
+	at org.testng.TestNG.run(TestNG.java:1101)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeSingleClass(TestNGDirectoryTestSuite.java:102)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:91)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]></failure>
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+Starting ChromeDriver 121.0.6167.85 (3f98d690ad7e59242ef110144c757b2ac4eef1a2-refs/branch-heads/6167@{#1539}) on port 5256
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+]]></system-err>
+  </testcase>
+</testsuite>

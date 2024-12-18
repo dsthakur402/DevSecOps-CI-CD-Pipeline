@@ -1,4 +1,4 @@
-FROM node:latest
+FROM node:23.3.0-bookworm-slim
 
 WORKDIR /app/backend
 
